@@ -4,9 +4,11 @@
              x:Class="et.osms.mobile.MainPage">
 
     <ScrollView>
+
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
+            <WebView Source="https://theschoolworld.com/" />
             <Image
                 Source="dotnet_bot.png"
                 HeightRequest="185"
